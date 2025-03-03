@@ -40,6 +40,7 @@ There are a number of trigonemtric identities which are very useful to know, som
 * $\sin{(-x)} = -\sin{x}$
 * $\cos{(-x)} = \cos{x}$
 * $\sin{x} = \cos{(x-\frac{\pi}{2})}$
+---
 
   ### 2D and 3D Coordinate Systems
   ### Intro to Vectors
