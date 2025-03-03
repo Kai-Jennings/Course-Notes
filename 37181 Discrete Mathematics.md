@@ -1,6 +1,6 @@
 # 37181 Discrete Mathematics Notes
 
-* Week 1 [Logic]
+* ### Week 1 [Logic]
     * Statements
     * Logical Connectives
     * Truth Tables
@@ -8,7 +8,7 @@
     * Tautology and Contradictions
     * Variables
     * Quantifiers
-* Week 2 [Proofs]
+* ### Week 2 [Proofs]
     *  Direct Proofs
     *  Divsibility Proofs
     *  Proof by Contrapositive
@@ -16,7 +16,7 @@
     *  Prime Number Proofs
     *  Rational Number Proofs
     *  Irrational Number Proofs
-* Week 3 [Sets]
+* ### Week 3 [Sets]
     * Sets
     * Set Operations
     * Subsets
