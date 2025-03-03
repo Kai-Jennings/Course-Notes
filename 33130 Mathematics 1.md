@@ -70,8 +70,8 @@ Vectors can be represented in a multitude of ways. For example the vector with c
     a \cdot \hat{i} + b \cdot \hat{j} + c \cdot \hat{k} &\quad \text{component form}
 \end{align}
 ```
-Some other important things to note when writing vectors as variables, a squiggle is placed either below or above the letter like so, $\overset{\sim}{v}$ or $\underset{\sim}{v}$, alternatively an arrow can be used like so, $\vec{v}$ or $\overrightarrow{AB}$.  
-In the component form above $\hat{i}$, $\hat{j}$ and $\hat{k}$ are known as the coordinate axis vectors and have values of $\langle 1, 0, 0 \rangle$, $\langle 0, 1, 0 \rangle$ and $\langle 0, 0, 1 \rangle$ respectively. These vectors form a complete basis
+Some other important things to note when writing vectors as variables, a squiggle is placed either above or below the letter like so, $\overset{\sim}{v}$ or $\underset{\sim}{v}$, alternatively an arrow can be used like so, $\vec{v}$ or $\overrightarrow{AB}$.  
+In the component form above, $\hat{i}$, $\hat{j}$ and $\hat{k}$ are known as the coordinate axis vectors and have values of $\langle 1, 0, 0 \rangle$, $\langle 0, 1, 0 \rangle$ and $\langle 0, 0, 1 \rangle$ respectively. These vectors form a complete basis
 meaning that any vector can be expressed in terms of them.  
 A vector can have more than two or three dimensions but for the most part in this course only 2D and 3D vectors will be worked with.  
 The magnitude or length of a vector is given by $\left| \underset{\sim}{v} \right| =$ $\scriptstyle \sqrt{v_x^{2} + v_y^{2} + v_z^{2}}$.  
