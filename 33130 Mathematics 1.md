@@ -70,7 +70,8 @@ Vectors can be represented in a multitude of ways. For example the vector with c
     a \cdot \hat{i} + b \cdot \hat{j} + c \cdot \hat{k} &\quad \text{component form}
 \end{align}
 ```
-Some other important things to note when writing vectors as variables, a squiggle is placed either above or below the letter like so, $\overset{\sim}{v}$ or $\underset{\sim}{v}$, alternatively an arrow can be used like so, $\vec{v}$ or $\overrightarrow{AB}$.  
+Some other important things to note when writing vectors as variables, a squiggle is placed either above or below the letter like so, $\overset{\sim}{v}$ or $\underset{\sim}{v}$, alternatively an arrow can be used like so, $\vec{v}$ or $\overrightarrow{AB}$,
+however usually arrows are only used when the vector is in the second form $\overrightarrow{AB}$, the vector between two points $A$ and $B$.  
 In the component form above, $\hat{i}$, $\hat{j}$ and $\hat{k}$ are known as the coordinate axis vectors and have values of $\langle 1, 0, 0 \rangle$, $\langle 0, 1, 0 \rangle$ and $\langle 0, 0, 1 \rangle$ respectively. These vectors form a complete basis
 meaning that any vector can be expressed in terms of them.  
 A vector can have more than two or three dimensions but for the most part in this course only 2D and 3D vectors will be worked with.  
@@ -78,8 +79,43 @@ The magnitude or length of a vector is given by $\left| \underset{\sim}{v} \righ
 
 ---
 
-  ### The Dot Product
-  ### Scalar and Vector Projections
+  ### The Dot Product  
+**Definition**  
+The dot product is an operation between two vectors that tells us information about the direction of the two vectors compared to each other, it is also sometimes called an inner product or scalar product since it takes two vectors as an input and returns a scalar quantity.
+The definition of the dot product between two 3D vectors $\underset{\sim}{a}$ and $\underset{\sim}{b}$ is:  
+```math
+\underset{\sim}{a} \cdot \underset{\sim}{b} = a_1 b_1 + a_2 b_2 + a_3 b_3
+```
+In general you just multiply corresponding components and add them together. The pattern can be extended to vectors of any dimension.  
+
+**Properties of the Dot Product**  
+There are a few useful properties of the dot product that should be noted:
+* The dot product is commutitive: $\underset{\sim}{a} \cdot \underset{\sim}{b} = \underset{\sim}{b} \cdot \underset{\sim}{a}$
+* The dot product is distributive over vector addition: $\underset{\sim}{a} \cdot (\underset{\sim}{b} + \underset{\sim}{c}) = \underset{\sim}{a} \cdot \underset{\sim}{b} + \underset{\sim}{a} \cdot \underset{\sim}{c}$
+* For any scalar $k$: $\underset{\sim}{a} \cdot (k\underset{\sim}{b}) = (k\underset{\sim}{a}) \cdot \underset{\sim}{b} = k(\underset{\sim}{a} \cdot \underset{\sim}{b})$
+* The dot product of a vector with itself is the square of its magnitude: $\underset{\sim}{a} \cdot \underset{\sim}{a} = \left|\underset{\sim}{a}\right|^{2}$
+
+**Results of the Dot Product**  
+One of the most useful results of the dot product is its ability to tell us if two vectors are orthogonal (perpendicular). If the dot product between two vectors is equal to zero then the two vectors are perpendicular.
+```math
+\text{If}\ \underset{\sim}{a} \cdot \underset{\sim}{b} = 0\ \text{then}\ \underset{\sim}{a}\ \text{is perpendicular to}\  \underset{\sim}{b}
+```
+
+Another extremely useful result is that the dot product can also tell us the angle between two vectors with the following relation:
+```math
+\underset{\sim}{a} \cdot \underset{\sim}{b} = \left|\underset{\sim}{a}\right| \left|\underset{\sim}{b}\right| \cos{\theta}
+```
+Where $\theta$ is the angle between the two vectors $\underset{\sim}{a}$ and $\underset{\sim}{b}$.  
+
+---
+
+  ### Scalar and Vector Projections  
+**Unit Vectors**  
+A unit vector is simply a vector of magnitude 1, and is usually denoted with a hat like so, $\hat{v}$. Any vector can be converted to a unit vector by dividing it by its own magnitude.
+```math
+\hat{v} = \dfrac{\underset{\sim}{v}}{\left| \underset{\sim}{v} \right|}
+```
+This unit vector $\hat{v}$ retains the original direction of $\underset{\sim}{v}$ since the only thing that is being changed is its magnitude.
 
 ## Week 2
 
